@@ -2,6 +2,7 @@
 Easily install Hassio on Proxmox hyperviser
 
 Download the file vzdump-qemu-HASSIO.2.9.vma.gz and place on your computer somewhere
+https://drive.google.com/open?id=1GywVR6ifK3sRgh3sJGV50EGgXAC0uWSr
 
 Download WinSCP		https://winscp.net/download/WinSCP-5.13.7-Setup.exe
 open WinSCP and create a new session
@@ -28,5 +29,8 @@ in the right column you should see a <VZDump backup file (1 item)>
 click on the file <vzdump-qemu-HASSIO.2.9.vma.gz> and click <Restore>
 You will be for a storage location and "VM ID" the VM ID is the computer number starting at 100 
 
-Once Restored you can clone the machine  XXX(hassio 2.9) and change the 
+Once Restored right click on the machine and click <Convert to Template>
+this will allow you to configure it and clone but not turn it on
+
+Lastley you can clone the machine  XXX(hassio 2.9) and change the 
 processors/memory and any other hardware you like
